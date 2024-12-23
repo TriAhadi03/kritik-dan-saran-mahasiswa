@@ -1,0 +1,9 @@
+CREATE TABLE `feedback` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `nim` varchar(50) NOT NULL,
+  `jurusan` varchar(255) NOT NULL,
+  `semester` int(11) NOT NULL,
+  `mata_kuliah` varchar(255) NOT NULL,
+  `feedback` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
