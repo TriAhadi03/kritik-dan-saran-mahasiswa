@@ -40,11 +40,6 @@ CREATE TABLE `feedback` (
 --
 -- Dumping data for table `feedback`
 --
-
-INSERT INTO `feedback` (`id`, `name`, `nim`, `jurusan`, `semester`, `mata_kuliah`, `feedback`) VALUES
-(1, 'Tri', '034', 'Sistem Informasi', 4, 'Cloud Computing', 'Buat agar lebih menarik');
-
---
 -- Indexes for dumped tables
 --
 
